@@ -9,7 +9,7 @@
     "build:css": "tailwindcss -i ./src/styles.css -o ./public/styles.css --watch",
     "deploy": "gh-pages -d build",
     
-  "build": "bun run build"
+  "build": "bun build src/index.tsx"
   },
   "dependencies": {
     "@elysiajs/html": "^1.2.0",
