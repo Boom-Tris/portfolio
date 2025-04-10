@@ -44,7 +44,7 @@ export function Profile() {
 
         <!-- ส่วนรูปภาพ (ด้านขวา) -->
         <div class="w-full md:w-1/4 flex justify-center">
-          <img src="../img/M.png" alt="Image" class="max-w-xs md:max-w-md"/>
+          <img src="https://github.com/Boom-Tris/portfolio/blob/main/img/M.png?raw=true" alt="Image" class="max-w-xs md:max-w-md"/>
         </div>
       </section>
    

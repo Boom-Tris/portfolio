@@ -39,7 +39,9 @@ export function Nav() {
         </div>
         
         <!-- เมนู Mobile (แสดงเมื่อคลิกปุ่ม Hamburger) -->
+        
         <div id="mobile-menu" class="md:hidden hidden bg-white px-6 py-3 border-t">
+        
           <a href="/about" class="block py-2 text-gray-600 hover:text-black">About Me</a>
           <a href="/skills" class="block py-2 text-gray-600 hover:text-black">Skills</a>
           <a href="/projects" class="block py-2 text-gray-600 hover:text-black">Project</a>
@@ -49,6 +51,7 @@ export function Nav() {
       </nav>
   
       <script>
+      
         document.getElementById('menu-toggle').addEventListener('click', function() {
           const menu = document.getElementById('mobile-menu');
           menu.classList.toggle('hidden');
