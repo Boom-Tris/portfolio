@@ -39,6 +39,6 @@ jobs:
         with:
           project: "boomtris-portfolio-50"
           entrypoint: "src/index.ts"
-          root: ""
+          root: "."
           
           
