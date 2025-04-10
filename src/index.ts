@@ -8,7 +8,7 @@ import { Skills } from './Skills'
 const app = new Elysia()
   .use(html())
   .use(staticPlugin({
-    assets: './img',
+    assets: '/img',
     prefix: '/img'
   }))
   .get('/', () => `
