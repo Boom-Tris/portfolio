@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "boomtris-portfolio-50"
-          entrypoint: "src/index.ts"
+          entrypoint: "index.ts"
           root: "."
           
           
