@@ -29,16 +29,16 @@ jobs:
           node-version: lts/*
 
       - name: Install step
-        run: "bun install"
+        run: "curl -fsSL https://bun.sh/install | bash"
 
       - name: Build step
-        run: "bun run build"
+        run: "bun dev"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "boomtris-portfolio-50"
-          entrypoint: "src/index.ts"
-          root: ""
+          entrypoint: "index.ts"
+          root: "."
           
           
