@@ -1,4 +1,5 @@
 {
+  "homepage": "https://boomtris.github.io/portfolio/",
   "name": "portfolio",
   "version": "1.0.50",
   "scripts": {
@@ -6,6 +7,7 @@
     "install": "bun install &&bun add @elysiajs/static",  
     "dev": "bun run --watch src/index.ts",
     "build:css": "tailwindcss -i ./src/styles.css -o ./public/styles.css --watch",
+    "deploy": "gh-pages -d build",
     
   "build": "bun run build"
   },
@@ -21,5 +23,5 @@
     "bun-types": "latest",
     "postcss": "^8.5.3"
   },
-  "module": "src/index.js"
+  "main": "src/index.js"
 }

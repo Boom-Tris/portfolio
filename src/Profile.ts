@@ -21,7 +21,7 @@ export function Profile() {
               I'm confident working with <span class="font-semibold text-blue-600">Python</span>, <span class="font-semibold text-blue-600">C++</span>, 
               <span class="font-semibold text-blue-600">C</span>, <span class="font-semibold text-blue-600">HTML</span>, 
               <span class="font-semibold text-blue-600">CSS</span>, <span class="font-semibold text-blue-600">JavaScript</span>, 
-              and <span class="font-semibold text-blue-600">WordPress (WPI)</span>.
+              and <span class="font-semibold text-blue-600">WordPress</span>.
             </p>
             
             <p class="mb-4">
@@ -44,7 +44,7 @@ export function Profile() {
 
         <!-- ส่วนรูปภาพ (ด้านขวา) -->
         <div class="w-full md:w-1/4 flex justify-center">
-          <img src="https://github.com/Boom-Tris/portfolio/blob/main/img/M.png?raw=true" alt="Image" class="max-w-xs md:max-w-md"/>
+          <img src="https://github.com/Boom-Tris/portfolio/blob/main/img/M.png?raw=true" alt="boom tris" class="max-w-xs md:max-w-md"/>
         </div>
       </section>
    
