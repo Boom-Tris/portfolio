@@ -5,8 +5,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
     "build:css": "tailwindcss -i ./src/styles.css -o ./public/styles.css --watch",
-    "install": "npm install",  
-  "build": "npm run build"
+    "install": "bun install",  
+  "build": "bun run build"
   },
   "dependencies": {
     "@elysiajs/html": "^1.2.0",
