@@ -13,7 +13,7 @@ export function Nav() {
         <div class="hidden md:flex space-x-6" items-center>
           <a href="#About" class="text-gray-600 hover:text-black hover:font-bold transition-colors">About Me</a>
           <a href="#skills" class="text-gray-600 hover:text-black hover:font-bold transition-colors">Skills</a>
-          <a href="/projects" class="text-gray-600 hover:text-black hover:font-bold transition-colors">Project</a>
+          <a href="#Projects" class="text-gray-600 hover:text-black hover:font-bold transition-colors">Project</a>
           <a href="/contact" class="text-gray-600  hover:text-black hover:font-bold transition-colors">Contact Me</a>
           <a href="/cv" class="bg-black text-white px-5 rounded-md hover:bg-white hover:text-black hover:font-bold border border-black transition-colors inline-flex items-center  group">
             CV 
@@ -35,7 +35,7 @@ export function Nav() {
       <div id="mobile-menu" class="md:hidden hidden bg-white px-6 py-3 border-t">
         <a href="#About" class="block py-2 text-gray-600 hover:text-black">About Me</a>
         <a href="#skills" class="block py-2 text-gray-600 hover:text-black">Skills</a>
-        <a href="/projects" class="block py-2 text-gray-600 hover:text-black">Project</a>
+        <a href="#Projects" class="block py-2 text-gray-600 hover:text-black">Project</a>
         <a href="/contact" class="block py-2 text-gray-600 hover:text-black">Contact Me</a>
         <a href="/cv" class="block py-2 text-gray-600 hover:text-black">CV</a>
       </div>

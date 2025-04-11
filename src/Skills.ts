@@ -1,8 +1,8 @@
 export function Skills() {
     return `
-      <main class="container mx-auto px-6 py-8 max-w-6xl">
-        <section id="skills" class="mb-12">
-          <h2 class="text-3xl font-bold mb-8 text-center">My Skills</h2>
+      <main class="container mx-auto px-6 py-8 max-w-6xl" >
+        <section id="skills" class="mb-12  scroll-mt-24 ">
+          <h2  class="text-3xl font-bold mb-8 text-center " >My Skills</h2>
           
           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
             <!-- Git -->

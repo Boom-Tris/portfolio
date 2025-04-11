@@ -6,6 +6,8 @@ import { Profile } from './Profile'
 import { Skills } from './Skills'
 import { Experience } from './Experience'
 import { About } from './About'
+import { Projects } from './Projects'
+import { ContactMe } from './ContactMe'
 const app = new Elysia()
   .use(html())
   .use(staticPlugin({
@@ -45,7 +47,8 @@ const app = new Elysia()
       ${Skills()}
       ${Experience()}
       ${About()}
-      
+      ${Projects()}   
+      ${ContactMe()}
     </body>
     </html>
   `)

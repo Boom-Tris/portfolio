@@ -1,7 +1,7 @@
 export function About() {
   return `
 <main class="container mx-auto px-6 py-8 max-w-6xl">
-  <section id="About" class="rounded-lg p-5 flex flex-col md:flex-row items-start gap-8 ">
+  <section id="About" class="rounded-lg p-5 flex flex-col md:flex-row items-start gap-8 scroll-mt-24">
     <!-- ส่วนรูปภาพ (ด้านซ้าย) -->
     <div class="w-full md:w-1/4 flex justify-center">
       <img src="https://github.com/Boom-Tris/portfolio/blob/main/img/boomTris.png?raw=true" alt="boom tris" class="max-w-xs md:max-w-md"/>

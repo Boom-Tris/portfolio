@@ -3,7 +3,7 @@ export function Experience() {
 
   <main class="bg-black text-white">
   <div class="container mx-auto px-6 py-8 max-w-6xl">
-    <section id="skills" class="mb-12">
+    <section  class="mb-12">
       <h2 class="text-3xl font-bold mb-8 text-center">Work Experience</h2>
       
       <!--Website Administrator (WordPress) — Royal Thai Police, Ban Tak Station  -->
