@@ -14,7 +14,7 @@ export function Nav() {
           <a href="#About" class="text-gray-600 hover:text-black hover:font-bold transition-colors">About Me</a>
           <a href="#skills" class="text-gray-600 hover:text-black hover:font-bold transition-colors">Skills</a>
           <a href="#Projects" class="text-gray-600 hover:text-black hover:font-bold transition-colors">Project</a>
-          <a href="/contact" class="text-gray-600  hover:text-black hover:font-bold transition-colors">Contact Me</a>
+          <a href="#ContactMe" class="text-gray-600  hover:text-black hover:font-bold transition-colors">Contact Me</a>
           <a href="/cv" class="bg-black text-white px-5 rounded-md hover:bg-white hover:text-black hover:font-bold border border-black transition-colors inline-flex items-center  group">
             CV 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 ml-3 group-hover:fill-black fill-white transition-colors">
