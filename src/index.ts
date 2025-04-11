@@ -4,20 +4,25 @@ import { staticPlugin } from '@elysiajs/static'
 import { Nav } from './Nav'
 import { Profile } from './Profile'
 import { Skills } from './Skills'
-
+import { Experience } from './Experience'
+import { About } from './About'
 const app = new Elysia()
   .use(html())
   .use(staticPlugin({
-    assets: './img',
-    prefix: '/img'
+    assets: './styles',
+    prefix: '/styles',
+
+   
   }))
   .get('/', () => `
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="en" class="scroll-smooth">
     <head>
+    <link href="./styles/styles.css" rel="stylesheet">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Boom.Tris</title>
+            
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -38,6 +43,8 @@ const app = new Elysia()
       ${Nav()}
       ${Profile()}
       ${Skills()}
+      ${Experience()}
+      ${About()}
       
     </body>
     </html>

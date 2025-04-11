@@ -3,7 +3,7 @@ import {Contact} from './Contact'
 export function Profile() {
   return `
     <main class="container mx-auto px-6 py-8 max-w-6xl">
-      <section class="rounded-lg p-5 flex flex-col md:flex-row items-start gap-8">  <!-- เปลี่ยน items-center เป็น items-start -->
+      <section id="Profile" class="rounded-lg p-5 flex flex-col md:flex-row items-start gap-8">  <!-- เปลี่ยน items-center เป็น items-start -->
         <!-- ส่วนเนื้อหา (ด้านซ้าย) -->
         <div class="w-full md:w-3/4 mt-16 py-16">  <!-- เพิ่ม mt-12 (หรือขนาดที่ต้องการ) -->
          <h1 class="text-4xl font-bold text-fffff mb-6">
