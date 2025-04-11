@@ -29,7 +29,7 @@ export function Experience() {
       <!--Private Tutor – Python Programming & WordPress Web Development  -->
       <div class="mb-10 p-6 bg-gray-900 rounded-lg">
         <h3 class="text-2xl font-bold text-grap-300 mb-2">Private Tutor – Python Programming & WordPress Web Development</h3>
-        <p class="text-gray-300 mb-4">April 2022 – Present - Present</p>
+        <p class="text-gray-300 mb-4">April 2022 - Present</p>
         <p class="text-gray-200">
       I provide private tutoring sessions focused on Python programming and website development using WordPress. My teaching approach is hands-on and tailored to each student's learning pace, covering fundamental programming concepts, data structures, object-oriented programming, and practical projects using Python. For WordPress, I guide students through setting up and customizing websites, including theme selection, plugin management, and content creation. I’ve helped learners from high school to working professionals gain confidence and proficiency in coding and web development, both for academic and real-world applications.
        </p>
