@@ -36,7 +36,7 @@ export function Nav() {
         <a href="#About" class="block py-2 text-gray-600 hover:text-black">About Me</a>
         <a href="#skills" class="block py-2 text-gray-600 hover:text-black">Skills</a>
         <a href="#Projects" class="block py-2 text-gray-600 hover:text-black">Project</a>
-        <a href="/contact" class="block py-2 text-gray-600 hover:text-black">Contact Me</a>
+        <a href="#ContactMe" class="block py-2 text-gray-600 hover:text-black">Contact Me</a>
         <a href="/cv" class="block py-2 text-gray-600 hover:text-black">CV</a>
       </div>
     </nav>
