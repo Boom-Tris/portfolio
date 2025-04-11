@@ -7,7 +7,7 @@ export function Nav() {
       <div class="container mx-auto px-6 py-3 flex justify-between items-center">
         <!-- ส่วนโลโก้และชื่อ -->
         <div class="flex items-center space-x-4">
-          <spakn class="text-xl font-bold text-gray-700 hidden md:block">Boom.Tris</spakn>
+          <span class="text-xl font-bold text-gray-700 ">Boom.Tris</span>
         </div>
 
         <div class="hidden md:flex space-x-6" items-center>
