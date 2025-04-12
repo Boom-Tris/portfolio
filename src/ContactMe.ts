@@ -35,15 +35,15 @@ export function ContactMe() {
                             <div>
                                 <input 
                                     type="text" 
-                                    name="website" 
-                                    placeholder="Your website (if exists)" 
+                                    name="Subject" 
+                                    placeholder="Subject" 
                                     class="w-full bg-white border-2 border-black rounded px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500"
                                 >
                             </div>
                             <div class="flex-grow">
                                 <textarea 
                                     name="message" 
-                                    placeholder="How can I help?*" 
+                                    placeholder="message" 
                                     class="w-full bg-white border-2 border-black rounded px-4 py-3 h-full focus:outline-none focus:ring-2 focus:ring-purple-500" 
                                     required
                                 ></textarea>
