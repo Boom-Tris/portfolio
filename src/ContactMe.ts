@@ -1,4 +1,5 @@
 import { Contact } from "./Contact";
+const formAction = import.meta.env.PUBLIC_FORMSPREE_URL;
 
 export function ContactMe() {
     return `
@@ -8,7 +9,7 @@ export function ContactMe() {
                     <h2 class="text-3xl font-bold mb-8 text-center">Contact Me</h2>
                     
                     <form 
-                        action="https://formspree.io/f/mjkylbrb" 
+                        action="${formAction}"
                         method="POST"
                         class="grid md:grid-cols-2 gap-12"
                     >
