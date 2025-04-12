@@ -1,4 +1,6 @@
 import { Contact } from "./Contact";
+
+// ซ่อน URL ในตัวแปร environment
 const formAction = import.meta.env.PUBLIC_FORMSPREE_URL;
 
 export function ContactMe() {
@@ -9,7 +11,7 @@ export function ContactMe() {
                     <h2 class="text-3xl font-bold mb-8 text-center">Contact Me</h2>
                     
                     <form 
-                        id="contactForm"  <!-- ใช้ id แทนการใส่ action -->
+                        id="contactForm" 
                         method="POST"
                         class="grid md:grid-cols-2 gap-12"
                     >
@@ -73,26 +75,28 @@ export function ContactMe() {
                     </form>
                 </section>
             </div>
-        </main>
-        <script>
-            // เมื่อฟอร์มถูกส่ง
-            document.getElementById('contactForm').addEventListener('submit', function(event) {
-                event.preventDefault();  // ป้องกันการส่งฟอร์มแบบปกติ
 
-                const formData = new FormData(this);  // เก็บข้อมูลจากฟอร์ม
+            <!-- JavaScript for Form Handling -->
+            <script>
+                // เมื่อฟอร์มถูกส่ง
+                document.getElementById('contactForm').addEventListener('submit', function(event) {
+                    event.preventDefault();  // ป้องกันการส่งฟอร์มแบบปกติ
 
-                fetch('${formAction}', {  // ส่งข้อมูลไปยัง Formspree
-                    method: 'POST',
-                    body: formData
-                })
-                .then(response => response.json())  // เช็คผลลัพธ์
-                .then(data => {
-                    alert('Your message has been sent!');
-                })
-                .catch(error => {
-                    alert('There was an error submitting your form.');
+                    const formData = new FormData(this);  // เก็บข้อมูลจากฟอร์ม
+
+                    fetch('${formAction}', {  // ส่งข้อมูลไปยัง Formspree
+                        method: 'POST',
+                        body: formData
+                    })
+                    .then(response => response.json())  // เช็คผลลัพธ์
+                    .then(data => {
+                        alert('Your message has been sent!');
+                    })
+                    .catch(error => {
+                        alert('There was an error submitting your form.');
+                    });
                 });
-            });
-        </script>
+            </script>
+        </main>
     `;
 }
