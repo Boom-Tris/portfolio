@@ -9,7 +9,7 @@ export function ContactMe() {
                     <h2 class="text-3xl font-bold mb-8 text-center">Contact Me</h2>
                     
                     <form 
-                        action="${formAction}"
+                        id="contactForm"  <!-- ใช้ id แทนการใส่ action -->
                         method="POST"
                         class="grid md:grid-cols-2 gap-12"
                     >
@@ -56,7 +56,6 @@ export function ContactMe() {
                                 >
                                     Send
                                 </button>
-                                
                             </div>
                         </div>
 
@@ -70,11 +69,30 @@ export function ContactMe() {
                                 <p class="text-gray-700 font-medium">Teerapat.jontama@gmail.com</p>
                                 ${Contact()}
                             </div>
-                          
                         </div>
                     </form>
                 </section>
             </div>
         </main>
+        <script>
+            // เมื่อฟอร์มถูกส่ง
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault();  // ป้องกันการส่งฟอร์มแบบปกติ
+
+                const formData = new FormData(this);  // เก็บข้อมูลจากฟอร์ม
+
+                fetch('${formAction}', {  // ส่งข้อมูลไปยัง Formspree
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())  // เช็คผลลัพธ์
+                .then(data => {
+                    alert('Your message has been sent!');
+                })
+                .catch(error => {
+                    alert('There was an error submitting your form.');
+                });
+            });
+        </script>
     `;
 }
