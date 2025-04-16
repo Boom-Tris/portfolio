@@ -62,11 +62,11 @@ export function ContactMe() {
                         <!-- Right side - Text content -->
                         <div class="space-y-6 h-full flex flex-col justify-between">
                             <div>
-                                <h3 class="text-2xl font-semibold">Let's talk for<br></h3>
+                                <h3 class="text-4xl font-semibold text-purple-600"  >Let’s have a conversation.<br></h3>
                                 <p class="text-gray-600 mt-4">
                                     I create intuitive and engaging interactive experiences by blending creative freedom with thoughtful design—making every interaction feel personal and unforgettable.
                                 </p> 
-                                <p class="text-gray-700 font-medium">Teerapat.jontama@gmail.com</p>
+                                <p class="text-gray-700 font-medium pt-2">Teerapat.jontama@gmail.com</p>
                                 ${Contact()}
                             </div>
                           
