@@ -15,7 +15,7 @@ export function Nav() {
           <a href="#skills" class="text-gray-600 hover:text-black hover:font-bold transition-colors">Skills</a>
           <a href="#Projects" class="text-gray-600 hover:text-black hover:font-bold transition-colors">Project</a>
           <a href="#ContactMe" class="text-gray-600  hover:text-black hover:font-bold transition-colors">Contact Me</a>
-          <a href="https://drive.usercontent.google.com/download?id=1hf3pxFwHBHE_UWVVh9pQ9_8S8Uy1puNH&export=download&authuser=0&confirm=t&uuid=790adce9-1a36-4c1f-a52b-e5bff142be45&at=APcmpox0qoH-3IP1_Xcy7QeGeitT:1744818119370" class="bg-black text-white px-5 rounded-md hover:bg-white hover:text-black hover:font-bold border border-black transition-colors inline-flex items-center  group">
+          <a href="https://drive.usercontent.google.com/download?id=1lXAi7CcCZQzKBC3hRYtUMCpTmNBoj3cN&export=download&authuser=0&confirm=t&uuid=41efa410-a3fa-4a82-b9b2-13e0be8b9446&at=APcmpoxg9WVV8Cxrht4-c6l1qRF6:1745043945566" class="bg-black text-white px-5 rounded-md hover:bg-white hover:text-black hover:font-bold border border-black transition-colors inline-flex items-center  group">
             CV 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 ml-3 group-hover:fill-black fill-white transition-colors">
               <path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/>
